@@ -1,0 +1,24 @@
+:root{
+    --darkBg:#1a2934eb;
+    
+}
+.header{
+    box-sizing: border-box;
+    background-color:var(--darkBg);
+    color:silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+
+.header .logo-panel{
+    display:  flex;
+    align-items: center;
+    gap:10px;
+}
+
+.header .logo-panel img{
+    width: 50px;
+    height: 50px;
+}
